@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Qalyn mal calculator</title>
+ </head> 
+ <body>
+     <h1>Bride's price calculator</h1>
+     <h3>Bride's name:</h3>
+     <input id="Bride's name" type="text">
+     <h3>Starting bid:</h3>
+     <input id="Starting bid" type="number"><br><br>
+    
+     <form>
+        <label>Bride's education</label><br>
+        <select id="Bride's education">    
+          <option value="1.5">Undergraduate degree</option>
+          <option value="1.2">College degree</option>
+          <option value="1.05">High school degree</option>
+          <option value="0.9">Middle school degree</option>
+       </select>
+    </form>
+    
+    <br>
+    
+    <form>
+        <label>Bride's family net worth</label><br>
+        <select id="Bride's family net worth">    
+          <option value="2">More than 100,000$</option>
+          <option value="1.5">Between 50,000$ and 100,000$</option>
+          <option value="1.2">Less than 50,000$</option>
+        </select>
+    </form>
+    
+    <br>
+    
+    <form>
+        <label>Bride's skills</label><br>
+      <input type="checkbox" id="skill1" name="skill" value="100">
+      <label for="skill1">Playing on dombra</label><br>
+      <input type="checkbox" id="skill2" name="skill" value="200">
+      <label for="skill2">Good cook</label><br>
+      <input type="checkbox" id="skill3" name="skill" value="150">
+      <label for="skill3">Easygoing character</label><br>
+      <input type="checkbox" id="skill4" name="skill" value="100">
+      <label for="skill4">Sings well</label><br>
+    </form>
+    
+    <br>
+    
+    <form>
+        <label>Bride's age</label><br>
+        <input type="radio"  class="age" name="response" value="1.5">Between 18-23</input><br>
+        <input type="radio"  class="age" name="response" value="1.2" >Between 24-27</input><br>
+        <input type="radio"  class="age" name="response" value="0.95">28+</input><br>
+        
+      </form>
+  
+      <br>
+
+      <form>
+        <label>Bride's reputation</label><br>
+        <input type="checkbox" id="reputation1" name="reputation">Gossips about her parent's attitude</input><br>
+        <input type="checkbox" id="reputation2" name="reputation">Gossips about her character</input><br>
+        <input type="checkbox" id="reputation3" name="reputation">General gossips around her person</input><br>
+        
+     </form>
+     
+     <br>
+     <label>Love letter</label><br>
+     <textarea id="Letter" maxlength="500" rows="4" cols="50">
+         
+     </textarea>
+
+     <br><br>
+
+     <button id="calculate">Calculate price</button><br><br>
+     <b></b><br><br><br>
+     <script src="Untitled-2.js"></script>
+        
+</body>
+</html>
