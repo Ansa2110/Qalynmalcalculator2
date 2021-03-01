@@ -53,7 +53,7 @@ const calculate = ()=>
           else if(i==2 && reputation[i].checked==true) {price=price+coeff1[i];}
          }
          
-        
+        price=Math.round(price);
      }
       let person =
       {
